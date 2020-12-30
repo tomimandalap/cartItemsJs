@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+}
+
+header {
+  background-image: url('img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: rgba(10, 10, 10, 0.3);
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 60px 0 60px;
+}
+
+h2 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-shadow: 0 2px 2px rgba(10, 10, 10, 0.3);
+}
+
+nav li {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+nav li span {
+  padding-left: 5px;
+}
+
+li a {
+  font-family: 'Roboto', sans-serif;
+  padding: 5px;
+  background: tomato;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(10, 10, 10, 0.3);
+  text-decoration: none;
+}
+
+.cart a {
+  background: royalblue;
+  cursor: pointer;
+}
+
+.container,
+.product-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.image {
+  margin: 10px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.add-cart {
+  position: absolute;
+  width: 100%;
+  background: darkgray;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  opacity: 0;
+  text-align: center;
+}
+
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4 {
+  bottom: 50px;
+  opacity: 1;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* CART PAGE */
+.product-container {
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+i#icon-close {
+  font-size: 15px;
+  color: red;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.table-item {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.teble-item th,
+.table-item td {
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+  padding: 10px;
+}
+
+.table-item th {
+  background: #eee;
+  padding: 10px;
+}
+
+.basketTotal {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+}
