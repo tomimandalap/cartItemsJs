@@ -8,8 +8,8 @@ Untuk membuat tampilan lebih rapih silahkan buat tabel seperti dalam program yan
 Semoga membantu
 
 Link tutorial 
-part 1 https://youtu.be/B20Getj_Zk4
-part 2 https://youtu.be/PoTGs38DR9E
-part 3 https://youtu.be/tEAl7L62GEw
-part 4 https://youtu.be/QNXQfdgIXLw 
-part 5 https://youtu.be/IY5UN82FZ2Q
+1. part 1 https://youtu.be/B20Getj_Zk4
+2. part 2 https://youtu.be/PoTGs38DR9E
+3. part 3 https://youtu.be/tEAl7L62GEw
+4. part 4 https://youtu.be/QNXQfdgIXLw 
+5. part 5 https://youtu.be/IY5UN82FZ2Q
